@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/orange_background_app"
-    tools:context=".Activity_2">
+    tools:context=".LoadGame_Activity">
 
     <TextView
         android:id="@+id/textView_activity2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:fontFamily="@font/aclonica"
-        android:text="You just started a new game"
+        android:fontFamily="@font/aldrich"
+        android:text="Loading..."
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -25,19 +25,18 @@
         app:layout_constraintVertical_bias="0.25" />
 
     <Button
-        android:id="@+id/button_exit"
+        android:id="@+id/button_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/some_color"
-        android:fontFamily="@font/aclonica"
-        android:text="X"
-        android:textSize="14sp"
+        android:backgroundTint="@color/some_color"
+        android:fontFamily="@font/aldrich"
+        android:text="Back"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

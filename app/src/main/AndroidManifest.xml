@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name=".Activity_1"></activity>
-        <activity android:name=".Activity_2" />
+        <activity android:name=".ExitGame"></activity>
+        <activity android:name=".OptionsScreen_Activity" />
+        <activity android:name=".LoadGame_Activity" />
+        <activity android:name=".Continue" />
+        <activity android:name=".NewGame_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
